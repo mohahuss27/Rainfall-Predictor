@@ -4,7 +4,7 @@
 This project implements a machine learning model to predict whether it will rain tomorrow based on historical weather data for Melbourne and nearby areas (MelbourneAirport, Watsonia). The model uses a Random Forest Classifier optimized via Grid Search Cross-Validation.
 
 ## Dataset
-- Source: [weatherAUS-2.csv](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/_0eYOqji3unP1tDNKWZMjg/weatherAUS-2.csv)
+- Source: [https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package/](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package?resource=download&select=weatherAUS.csv)
 - Description: Australian weather dataset with features like temperature, humidity, wind speed, etc.
 - Preprocessing: Drops null values, filters locations, extracts seasons from dates, and balances the target variable.
 
@@ -37,9 +37,3 @@ pip install pandas scikit-learn
 - Best parameters and score are printed after training.
 - Evaluation metrics include precision, recall, F1-score, and accuracy on the test set.
 - Confusion matrix visualization is generated.
-
-## Contributing
-Feel free to fork and submit pull requests for improvements.
-
-## License
-This project is for educational purposes. Check the dataset license for usage restrictions.
