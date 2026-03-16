@@ -12,7 +12,7 @@ This project implements a machine learning model to predict whether it will rain
 - Predicted next-day rainfall with **86% accuracy**.
 - End-to-end workflow: data preprocessing → feature engineering → model training → evaluation.
 - Evaluation metrics: precision, recall, F1-score, and confusion matrix.
-- 
+  
 ## Dependencies
 - numpy
 - pandas
