@@ -14,14 +14,12 @@ This project implements a machine learning model to predict whether it will rain
 - Evaluation metrics: precision, recall, F1-score, and confusion matrix.
   
 ## Dependencies
-- numpy
 - pandas
-- matplotlib
 - scikit-learn
 
 Install via pip:
 ```
-pip install numpy pandas matplotlib scikit-learn
+pip install pandas scikit-learn
 ```
 
 ## Usage
